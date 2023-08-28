@@ -30,7 +30,7 @@ const LinkBoxes = () => {
   );
 
   return (
-    <div className="mt-12 w-full flex flex-col md:flex-row items-center gap-8">
+    <div className="mt-12 w-full flex flex-col lg:flex-row items-center gap-8">
       {boxes.map((box) => (
         <Box
           bgImg={box.bgImg}

@@ -1,0 +1,1 @@
+# sazky-dobra-vec-rozcestnik

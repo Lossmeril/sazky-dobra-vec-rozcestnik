@@ -6,17 +6,22 @@ const SocialIcons = () => {
       {
         icon: "SDV_TELEGRAM.png",
         label: "Email",
-        href: "/",
+        href: "mailto:info@sazkydobravec.cz",
       },
       {
         icon: "SDV_TELEGRAM.png",
         label: "Instagram",
-        href: "/",
+        href: "https://instagram.com/sazkydobravec",
       },
       {
         icon: "SDV_TELEGRAM.png",
         label: "Telegram",
-        href: "/",
+        href: "https://t.me/SazkyDobraVec_telegram",
+      },
+      {
+        icon: "SDV_TELEGRAM.png",
+        label: "Web",
+        href: "https://sazkydobravec.cz",
       },
     ],
     []

@@ -6,8 +6,8 @@ import SocialIcons from "@/components/socialIcons";
 export default function Home() {
   return (
     <>
-      <main className="w-full h-full relative">
-        <div className="absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%]">
+      <main className="w-full h-full">
+        <div className="min-h-full relative flex flex-col items-center justify-center">
           <img
             src="/img/SDV_color_long.png"
             width="250px"

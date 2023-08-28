@@ -5,8 +5,7 @@ const LinkBoxes = () => {
   const boxes = useMemo(
     () => [
       {
-        bgImg:
-          "https://sazkydobravec.cz/wp-content/uploads/2021/11/pexels-anna-nekrashevich-6801874.jpg",
+        bgImg: "/img/bg1.jpg",
         icon: "/img/SDV_TELEGRAM.png",
         label: "Staňte se naším členem",
         text: "Podívejte se na náš web a vyberte si z našich členství a sázkařských příležitostí!",
@@ -23,7 +22,7 @@ const LinkBoxes = () => {
       {
         bgImg:
           "https://sazkydobravec.cz/wp-content/uploads/2021/11/pexels-anna-nekrashevich-6801874.jpg",
-        icon: "/img/SDV_TELEGRAM.png",
+        icon: "/img/SDV_icon_LIVE.png",
         label: "Sázky DOBRÁ VĚC Live",
         text: "Sledujte Sázky DOBRÁ VĚC živě pro ještě více obsahu z naší sázkařské komunity!",
         href: "https://sazkydobravec.cz",

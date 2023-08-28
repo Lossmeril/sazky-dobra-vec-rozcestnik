@@ -5,9 +5,10 @@
 html,
 body,
 :root {
-  height: 100%;
+  height: 100vh;
   background-color: #f9f9f9;
   color-scheme: light;
+  overflow: hidden;
 }
 
 .custom-box:hover .custom-box-bg {

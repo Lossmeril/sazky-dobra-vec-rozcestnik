@@ -9,3 +9,7 @@ body,
   background-color: black;
   color-scheme: dark;
 }
+
+.custom-box:hover .custom-box-bg {
+  transform: translate(-50%, -50%) scale(1.1);
+}

@@ -13,10 +13,10 @@ export default function Home() {
         <div className="min-h-full relative flex flex-col items-center justify-center">
           <Image
             alt="Sázky DOBRÁ VĚC logo"
-            src="/img/SDV_color_long.png"
-            width={250}
-            height={100}
-            className="text-center mx-auto"
+            src="/img/logo.png"
+            width={184}
+            height={72}
+            className="text-center mx-auto mb-8"
           />
           <div className="text-center">
             <h1 className="text-4xl font-bold mt-2 mb-6">Sázky DOBRÁ VĚC</h1>

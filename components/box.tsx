@@ -11,7 +11,7 @@ interface BoxProps {
 const Box: React.FC<BoxProps> = ({ label, icon, bgImg, href, children }) => {
   return (
     <a href={href} target="_blank">
-      <div className="w-[450px] h-[250px] lg:h-[300px] lg:w-[300px] xl:h-[350px] xl:w-[350px] outline outline-1 outline-medium rounded-lg relative overflow-hidden bg-light custom-box hover:bg-medium transition sazky-corners">
+      <div className="w-[450px] h-[250px] lg:h-[300px] lg:w-[300px] xl:h-[350px] xl:w-[350px] outline outline-1 outline-medium rounded-lg relative overflow-hidden bg-mint-50 custom-box hover:bg-mint-200 transition sazky-corners shadow-lg">
         <div
           className="w-[450px] h-[250px] lg:h-[300px] lg:w-[300px] xl:h-[350px] xl:w-[350px] absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] bg-cover bg-no-repeat transition opacity-10 custom-box-bg"
           style={{ backgroundImage: "url('" + bgImg + "')" }}

@@ -4,12 +4,12 @@ const SocialIcons = () => {
   const socials = useMemo(
     () => [
       {
-        icon: "SDV_TELEGRAM.png",
+        icon: "SDV_EMAIL.png",
         label: "Email",
         href: "mailto:info@sazkydobravec.cz",
       },
       {
-        icon: "SDV_TELEGRAM.png",
+        icon: "SDV_INSTAGRAM.png",
         label: "Instagram",
         href: "https://instagram.com/sazkydobravec",
       },
@@ -19,7 +19,7 @@ const SocialIcons = () => {
         href: "https://t.me/SazkyDobraVec_telegram",
       },
       {
-        icon: "SDV_TELEGRAM.png",
+        icon: "SDV_WEB.png",
         label: "Web",
         href: "https://sazkydobravec.cz",
       },

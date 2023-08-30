@@ -21,7 +21,7 @@ export default function Home() {
           <div className="text-center">
             <h1 className="text-4xl font-bold mt-2 mb-6">Sázky DOBRÁ VĚC</h1>
             <p className="text-xl font-medium">
-              Profi sázkové poradentsví - hazard měníme v investici 💚
+              Profi sázkové poradentsví - měníme hazard v investici 💚
             </p>
             <LinkBoxes />
             <SocialIcons />

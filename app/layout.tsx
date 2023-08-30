@@ -8,8 +8,8 @@ const font = Titillium_Web({
 });
 
 export const metadata: Metadata = {
-  title: "Sázky DOBRÁ VĚC",
-  description: "Měníme hazard v investici!",
+  title: "Sázky DOBRÁ VĚC | Rozcestník",
+  description: "Měníme hazard v investici! 💚",
 };
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="cs">
       <body className={font.className}>{children}</body>
     </html>
   );

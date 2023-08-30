@@ -6,21 +6,21 @@ const LinkBoxes = () => {
     () => [
       {
         bgImg: "/img/bg1.jpg",
-        icon: "/img/SDV_BUY A MEMBERSHIP.png",
+        icon: "/img/icons/SDV_BUY A MEMBERSHIP.png",
         label: "Staňte se naším členem",
         text: "Podívejte se na náš web a vyberte si z našich členství a sázkařských příležitostí!",
         href: "https://sazkydobravec.cz",
       },
       {
         bgImg: "/img/bg2.jpg",
-        icon: "/img/SDV_TELEGRAM.png",
+        icon: "/img/icons/SDV_TELEGRAM.png",
         label: "Připojte se na náš Telegram!",
-        text: "Sledujte náš Telegram kanál a získejte tipy na sázení zcela zdarma!",
+        text: "Sledujte náš Telegram kanál a začněte získávat tipy na sázení zcela ZDARMA!",
         href: "https://t.me/SazkyDobraVec_telegram",
       },
       {
         bgImg: "img/bg.jpg",
-        icon: "/img/SDV_icon_LIVE.png",
+        icon: "/img/icons/SDV_icon_LIVE.png",
         label: "Sázky DOBRÁ VĚC Live",
         text: "Sledujte Sázky DOBRÁ VĚC živě pro ještě více obsahu z naší sázkařské komunity!",
         href: "https://t.me/SazkyDobraVecLiveTips",
@@ -39,7 +39,7 @@ const LinkBoxes = () => {
           href={box.href}
           key={box.label}
         >
-          <p>{box.text}</p>
+          <p className="text-md lg:text-lg">{box.text}</p>
         </Box>
       ))}
     </div>

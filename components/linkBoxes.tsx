@@ -20,11 +20,18 @@ const LinkBoxes = () => {
       },
       {
         bgImg: "img/bg.jpg",
-        icon: "/img/icons/SDV_icon_LIVE.png",
-        label: "Sázky DOBRÁ VĚC Live",
-        text: "Sledujte Sázky DOBRÁ VĚC živě pro ještě více obsahu z naší sázkařské komunity!",
-        href: "https://t.me/SazkyDobraVecLiveTips",
+        icon: "/img/icons/SDV_USA.png",
+        label: "Sázky DOBRÁ VĚC USA",
+        text: "Sledujte i náš speciální Telegram kanál, kde se objevují tipy od známých amerických tiperů!",
+        href: "https://t.me/SazkyDobraVecUSA",
       },
+      // {
+      //   bgImg: "img/bg.jpg",
+      //   icon: "/img/icons/SDV_icon_LIVE.png",
+      //   label: "Sázky DOBRÁ VĚC Live",
+      //   text: "Sledujte Sázky DOBRÁ VĚC živě pro ještě více obsahu z naší sázkařské komunity!",
+      //   href: "https://t.me/SazkyDobraVecLiveTips",
+      // },
     ],
     []
   );
